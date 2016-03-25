@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+ 
+	<item android:id="@+id/search"
+	    	android:title="Search"
+	    	android:icon="@drawable/ic_launcher">
+	<menu>
+	    <group android:checkableBehavior="single">
+	        <item android:id="@+id/search_hotel"
+	            android:title="Hotel"
+	            android:checked="true"/>
+	    <item android:id="@+id/search_police"
+	            android:title="Police Station"
+	            />
+	    <item android:id="@+id/search_hospital"
+	            android:title="Hospital"
+	            />
+	    <item android:id="@+id/search_gasstation"
+	            android:title="GasStation"
+	            />
+	    
+	    <item android:id="@+id/search_ATM"
+	            android:title="ATM"
+	            />
+	    <item android:id="@+id/search_College"
+	            android:title="College"
+	            />
+	    </group>
+	</menu>
+	</item>
+	<item android:id="@+id/mapview"
+	    	android:title="Mapview"
+	    	android:icon="@drawable/ic_launcher">
+	    <menu>
+	    <group android:checkableBehavior="single">
+	        <item android:id="@+id/mapview_hybrid"
+	            android:title="Hybrid"
+	            android:checked="true"/>
+	    <item android:id="@+id/mapview_maps"
+	            android:title="Satellite"
+	            />
+	    <item android:id="@+id/mapview_terrain"
+	            android:title="Terrain"
+	            />
+	    <item android:id="@+id/mapview_normal"
+	            android:title="Normal"
+	            />
+	    </group>
+	</menu>
+    </item>
+</menu>
